@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=RS232 Hyper Communicator Setup
+
+
+[Package|RS232 Hyper Communicator Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\My Vb Programs\Anas Hyper Communicator\Setup
+
+[Package|RS232 Hyper Communicator Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|RS232 Hyper Communicator Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|RS232 Hyper Communicator Setup|Files Found]
+
+[Package|RS232 Hyper Communicator Setup|Files Released]
+
+[Package|RS232 Hyper Communicator Setup|Missing Dependency Information]
+
+[Package|RS232 Hyper Communicator Setup|Out-of-Date Dependency Information]
+
+[Package|RS232 Hyper Communicator Setup|Files Added]
+
+[Package|RS232 Hyper Communicator Setup|Files Removed]
+
+[Package|RS232 Hyper Communicator Setup|Files In Project]
+C:\Program Files\RS-232\RS-232.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|RS232 Hyper Communicator Setup|Configure Registry Files]
+Applicable=No
+
+[Package|RS232 Hyper Communicator Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|RS232 Hyper Communicator Setup|Install Locations]
+C:\Program Files\RS-232\RS-232.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|RS232 Hyper Communicator Setup|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\RS-232\RS-232.exe=No
+
+[Package|RS232 Hyper Communicator Setup|Distribution]
+Type=single
+Size=1.44 MB
+Title=RS232
+
+[Package|RS232 Hyper Communicator Setup|IconGroups]
+Group0=RS232 Hyper Communicator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|RS232 Hyper Communicator Setup|RS232 Hyper Communicator]
+Icon1=RS-232.exe
+Title1=RS232
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|RS232 Hyper Communicator Setup|Package]
+PackageFolder=F:\My Vb Programs\Anas Hyper Communicator\Setup
+ProjectFolder=F:\My Vb Programs\Anas Hyper Communicator
+ServerSideCab=
+File1=F:\My Vb Programs\Anas Hyper Communicator\Setup\setup.exe
+File2=F:\My Vb Programs\Anas Hyper Communicator\Setup\Setup.Lst
+File3=F:\My Vb Programs\Anas Hyper Communicator\Setup\RS-232.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
